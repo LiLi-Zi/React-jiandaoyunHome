@@ -1,0 +1,28 @@
+.containerBq{
+    background: #0d112d;
+    line-height: 14px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    color: #5e6d82;
+    flex-direction: column;
+}
+.containerBq a{
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: none;
+    margin-bottom: 5px;
+    line-height: 18px;
+    color: #5e6d82;
+}
+
+
+.containerBq .record-icon {
+    margin-left: 0;
+    margin-right: 9px;
+    width: 16px;
+}

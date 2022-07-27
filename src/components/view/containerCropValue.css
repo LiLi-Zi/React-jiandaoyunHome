@@ -1,0 +1,94 @@
+.containerCropValue{
+    padding: 40px 0 20px;
+}
+.containerCropValue .bricks{
+    padding: 0;
+}
+
+.containerCropValue .bricks .bricks-description{
+    
+    font-size: 12px;
+    color: #5E6D82;
+    line-height: 18px;
+    margin: 10px 0 20px;
+    width: 100%;
+}
+.containerCropValue .tab-box{
+    padding: 0 18px;
+    position: relative;
+}
+
+.tab-box .swiper{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0 0 5px 0;
+    z-index: 1;
+}
+
+.tab-box .swiper-slide{
+    height: 400px;
+    width: 80%;
+    border-radius: 2px;
+    box-shadow: 0 0 9px 0 rgb(64 106 103 / 13%);;
+    
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.tab-box .swiper-pagination .swiper-pagination-bullet-active{
+    background-color: aquamarine;
+    width: 20px;
+    height: 8px;
+    border-radius: 5px;
+}
+.tab-box .swiper-slide .crop-logo{
+    display: block;
+    height: 216px;
+
+}
+.tab-box .swiper-slide .txt-box{
+    
+    height: 100%;
+    flex-direction: column;
+    text-align: left;
+    
+    
+}
+.tab-box .swiper-slide .txt-box .txt-content{
+    padding: 20px;
+}
+.tab-box .swiper-slide .txt-box .txt-content img{
+    width: 66px;
+}
+.tab-box .swiper-slide .txt-box .txt-content .txt-info{
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    color: #1F2D3D;
+}
+.tab-box .swiper-slide .txt-box .txt-content .txt-name{
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+    color: #1F2D3D;
+}
+.tab-box .swiper-slide .txt-box .txt-content .txt-name .color-grey{
+    font-size: 12px;
+    display: inline-block;
+    color: #5E6D82;
+    transform: scale(.8);
+    margin-left: 0;
+}
+.tab-box .swiper-slide .txt-box .txt-content .look-more{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 15px;
+    display: block;
+   
+    color: #0db3a6;
+}

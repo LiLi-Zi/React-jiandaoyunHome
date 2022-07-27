@@ -1,0 +1,63 @@
+.containerSy{
+    padding: 20px 5%;
+}
+.containerSy .bricks{
+    padding: 0;
+}
+.containerSy .bricks .sy-box{
+    background-image: url('../../images/2020jdy-sybg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+}
+.containerSy .bricks .sy-box p{
+    font-size: 20px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    line-height: 33px;
+    text-shadow: 0 1px 3px rgb(37 127 213 / 50%);
+}
+.containerSy .bricks .sy-box form{
+    width: 90%;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerSy .bricks .sy-box form input[type=text]{
+    width: 60%;
+    font-size: 14px;
+    height: 36px;
+    background-size: 14px;
+    padding-left: 42px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #1F2D3D;
+    background-image: url('../../images/2020jdy-iphone.png');
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    outline: none;
+    border: none;
+}
+
+.containerSy .bricks .sy-box form input[type=button]{
+    width: 40%;
+    font-size: 14px;
+    height: 36px;
+    background: #ff971e;
+    border-radius: 24px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}

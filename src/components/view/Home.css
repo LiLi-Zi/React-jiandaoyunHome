@@ -1,0 +1,129 @@
+.main{
+    padding-top: 60px;
+    text-align: center;
+}
+.container{
+    padding: 165px 0 95px 0;
+    position: relative;
+    z-index: -3;
+    background-image: linear-gradient(to right,rgba(244,246,249,1) 0,rgba(244,246,249,.64) 100%);
+}
+.ad-banner{
+    overflow: hidden;
+    position: absolute;
+   
+    top:0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    z-index: -1;
+
+    
+}
+.ad-banner-pc{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-image: url(../../images/publicity_product_pc.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.row{
+    padding: 0 5%;
+    /* display: flex; */
+    
+}
+.container .row .txt{
+    width: 100%;
+    text-align: center;
+}
+
+.container .row .txt .typed{
+    color: #0DB3A6;
+}
+@keyframes blink{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.container .row  .typedcursor{
+    color:#0DB3A6;
+    opacity: 1;
+    animation: blink 0.4s infinite;
+}
+.container .row .txt .image{
+   width: 80%;
+   margin: 0 auto 20px ;
+   
+}
+.container .row .txt form{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 2px grey;
+}
+
+.container .row .txt form input[type=text]{
+    width: 70%;
+    height: 36px;
+    border: none;
+    outline: 0;
+    background-image: url('../../images/2020jdy-iphone.png');
+    background-size: 5%  60%;
+    background-repeat: no-repeat;
+    background-position: 5% 50% ;
+    padding-left: 10%;
+}
+
+.container .row .txt form input[type=button]{
+    width: 30%;
+    height: 36px;
+    border: none;
+    outline: 0;
+    background-color:#0DB3A6; ;
+    color:#fff;
+}
+.container-indexEntrance .row-indexEntrance{
+    padding: 0 10%;
+}
+.container-indexEntrance .entranceBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+    box-shadow: 0 2px 8px 0 rgba(16,20,40,.1);
+    
+}
+.container-indexEntrance .entranceList{
+    width: 25%;
+}
+
+.container-indexEntrance .entranceList .entrance{
+    display: flex;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 36px 19px 0;
+    
+    height: 100%;
+}
+.container-indexEntrance .entranceList .entrance:hover{
+  background-color: #8bd6d0;
+}
+.container-indexEntrance .entranceList .entrance img{
+    width: 25px;
+    height: 30px;
+    margin: 0 10px;
+}
+.container-indexEntrance .entranceList .entrance-content{
+    height: 64px;
+    color: #000;
+}

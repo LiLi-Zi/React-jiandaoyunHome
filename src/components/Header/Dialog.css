@@ -1,0 +1,61 @@
+.dialog-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(41, 38, 38,0.3);
+    z-index: 1001;
+}
+.dialog-box{
+    width: 60%;
+    height: 100%;
+    position:fixed;
+    top:0;
+    right:0;
+    background-color: #fff;
+    z-index: 1002;
+    overflow: auto;
+}
+
+.dialog-box .box-title{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.dialog-box .box-title span{
+    cursor: pointer;
+    float:right;
+}
+.dialog-box .product-title-box-list p{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px 0px 10px 10px;
+}
+.dialog-box .product-title-box-list .product-box-list{
+    background-color: aliceblue;
+}
+.dialog-box .product-title-box-list .product-box-list li {
+    font-size: 16px;
+    font-weight: normal;
+    padding:10px 15px ;
+    
+}
+.dialog-box .box-list{
+    background-color: aliceblue;
+}
+.dialog-box .box-list li {
+    font-size: 16px;
+    font-weight: normal;
+    padding:10px 15px ;
+}
+.dialog-box .box-list{
+    display: none;
+}
+.dialog-box .product-box-list{
+    display: none;
+} 
+
+.dialog-box .product-title-box-list{
+    display: none;
+}

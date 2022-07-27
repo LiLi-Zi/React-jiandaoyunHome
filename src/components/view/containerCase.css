@@ -1,0 +1,19 @@
+.containerCase{
+    padding: 20px 7px 10px;
+}
+.containerCase .bricks{
+    padding: 0;
+}
+.containerCase .bricks .bricks-primary-title{
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #1F2D3D;
+    text-align: center;
+}
+
+.containerCase .bricks .logos{
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,67 @@
+.sideBar{
+    width: 56px;
+    height: 297px;
+    position: fixed;
+    right: 10px;
+    top:50%;
+    transform: translate(0,-50%);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 10%);
+    background-color: #fff;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    z-index: 888;
+}
+
+.sideBar-online{
+    width: 100%;
+    height: 75px;
+    border-radius: 6px;
+    padding: 10px 0 0 0;
+   
+}
+.sideBar-phone{
+    width: 100%;
+    height: 75px;
+    border-radius: 6px;
+    padding: 5px 0 0 0;
+   
+}
+.sideBar-phone .phone-box{
+    padding: 5px 5px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    right: 60px;
+    top:100px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 10%);
+    display: none;
+}
+.sideBar-weixin{
+    width: 100%;
+    height: 75px;
+    border-radius: 6px;
+    padding: 5px 0 0 0;
+}
+.sideBar-top{
+    width: 100%;
+    height: 52px;
+    border-radius: 6px;
+   
+}
+.sideBar-top p{
+    padding: 10px 0 0 0;
+}
+.sideBar div:hover{
+    cursor: pointer;
+    background-color: #0DB3A6;
+}
+.sideBar span{
+    font-size: 30px;
+    
+}
